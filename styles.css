@@ -26,15 +26,31 @@ body::-webkit-scrollbar
     transform: scale(1.02);
 }
 
-#cake img{
-    background: #333834 0% 0% no-repeat padding-box;
+#cake{
+    background: black 0% 0% no-repeat padding-box;
     box-shadow: 5px 5px 10px #050505, 
                 -3px -3px 10px #444b46;
     border: 1px solid #575B567E;
     opacity: 1;
-    border-radius: 20px;
+    border-radius: 10px;
     transition-duration: 0.5s;
     width: 100%;
+}
+
+#cake img{
+  width: 100%;
+}
+
+#poem{
+  background: black 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 10px #050505, 
+              -3px -3px 10px #444b46;
+  border: 1px solid #575B567E;
+  color: #DFCDDD;
+  opacity: 1;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  width: 100%;
 }
 
 .jumbotron{
