@@ -1,0 +1,69 @@
+html,body
+{
+    overflow-x: hidden; 
+    font-size: 1em;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+body::-webkit-scrollbar
+{
+  display: none;
+}
+
+
+.gallerys img{
+    background: #333834 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 10px #050505, 
+                -3px -3px 10px #444b46;
+    border: 1px solid #575B567E;
+    opacity: 1;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    margin-bottom: 15px;
+}
+
+.gallerys img:hover {
+    transform: scale(1.02);
+}
+
+#cake img{
+    background: #333834 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 10px #050505, 
+                -3px -3px 10px #444b46;
+    border: 1px solid #575B567E;
+    opacity: 1;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    width: 100%;
+}
+
+.jumbotron{
+    background-color: lightpink;
+}
+
+#jumbo{
+    background-image: url("./images/jumbo.jpg");
+    /* -webkit-background-size:cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 320px;
+    color: white;
+    margin-top: -0.6%;
+}
+
+.carousel .carousel-item {
+    height: 300px;
+    background-color: #1B231B;
+    border-radius: 20px;
+  }
+
+  .carousel .carousel-item img {
+    margin: auto;
+    max-height: 300px;
+    max-width: 60%;
+  }
+
+  .footer {
+    margin-top: 7%;
+    padding: 20px 0px;
+  }
