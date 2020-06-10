@@ -92,3 +92,6 @@ body::-webkit-scrollbar
     margin-top: 7%;
     padding: 20px 0px;
   }
+  video:focus {
+    outline: none;
+}
